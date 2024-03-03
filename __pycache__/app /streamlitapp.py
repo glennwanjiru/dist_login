@@ -55,6 +55,7 @@ def search_contact(registration_number):
         st.write(f"Registration Number: {contact.get('registration_number')}")
     else:
         st.warning("Contact not found.")
+        
 
 # Streamlit UI
 st.title("Contact Management App")
